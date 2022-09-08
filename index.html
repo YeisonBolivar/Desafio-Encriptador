@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Encriptador</title>
+</head>
+<body>
+    <header>
+        <h1><img src="imagenes/Logo.png" alt="Logo Alura" class="logo"></h1>
+    </header>
+    <main>
+        <section class="column-left">
+            <textarea name="entrada" id="input-text" placeholder="ingrese el texto aqui." class="input-text"></textarea>
+            <p><img src="imagenes/info.png" alt="info"> solo letras minúsculas y sin acénto.</p>
+            <div class="btns">
+                <button class="encriptar btn" id="encriptar" >encriptar</button>
+                <button class="desencriptar btn" id="desencriptar">desencriptar</button>
+            </div>
+        </section>
+        <section class="column-right">
+            <div class="contenedorResultado">
+                <img src="imagenes/Muñeco.png" alt="Muñeco" class="muñeco" id="muñeco">
+
+                <div class="mensaje-salida" id="mensaje-salida">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <textarea name="salida" id="exit-text" class="view-text" placeholder="sin texto"></textarea>
+            <button class="copiar btn" id="copy">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>2022 Challenge ONE: Encriptador de Texto. Desarrollado por: Yeison Bolivar</p>
+        <nav>
+            <a href="https://github.com/YeisonBolivar"><img src="imagenes/icons8-github-40.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/yeison-b-17a7aa130/"><img src="imagenes/icons8-linkedin-circled-40.png" alt="linkedin"></a>
+        </nav>
+    </footer>
+    <script src="funcionalidad.js"></script>
+</body>
+</html>

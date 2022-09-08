@@ -1,0 +1,183 @@
+body{
+    background:  #1FA2FF; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo{
+    margin: 10px 0 0 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    margin: 0 auto;
+    height: 480px;
+}
+
+.column-left{
+    background: rgba(253, 253, 168, 0.288);
+    width: 600px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.input-text{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    resize: none;
+    width: 400px;
+    height: 300px;
+    border: none;
+    background: none;
+}
+
+
+.column-left p{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.btns{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.btn{
+    width: 200px;
+    height: 38px;
+    border-radius: 40px;
+    background:  #006f83c5;
+    border-color: rgba(0, 0, 39, 0.705);
+    color: #ffffff;
+}
+
+.desencriptar{
+    background: #ffffff81;
+    color: black;
+}
+
+.column-right{
+    background: rgba(253, 253, 168, 0.288);
+    width: 322px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.muñeco{
+    display: block;
+    width: 258px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mensaje-salida{
+    display: block;
+    width: 258px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mensaje-salida h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mensaje-salida p{
+    margin-top: 5px;
+}
+
+.copiar{
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.view-text{
+    resize: none;
+    width: 258px;
+    height: 307px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: none;
+    border: none;
+    display: none;
+}
+
+
+footer{
+    display: flex;
+    margin: 5px 0 0 20px;
+}
+
+footer p{
+    align-self: center;
+}
+
+footer a{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+    .column-left{
+        background: none;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 200px;
+        margin: 0;
+        padding: 5px;
+        
+    }
+
+    .input-text{
+        margin: 0 auto;
+        width: 80%;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    .column-left p{
+        margin: 5px 0 10px 10px;
+    }
+    .btns{
+        display: block;
+        width: 200px;
+    }
+
+    .column-right{
+        background: none;
+        margin: 0;
+        display: block;
+        width: 90%;
+        height: 300px;
+        
+    }
+
+    .muñeco{
+        margin: 0 auto;
+        width: 200px;
+        height: 180px;
+    }
+
+    .view-text{
+        height: 100px;
+    }
+
+    footer{
+        display: block;
+        width: 100%;
+        margin: 10px 10px 0 10px;
+    }
+  }
